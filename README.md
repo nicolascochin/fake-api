@@ -25,10 +25,10 @@ Install dependencies
 Start the server
 
 ```bash
-  npm run dev
+  npm start
 ```
 
-## Generate dB.json file
+## Generate db.json file
 
 ```bash
 podman run -it -v ${PWD}:${PWD}:Z -w ${PWD} ruby:3.3-alpine sh

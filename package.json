@@ -4,8 +4,7 @@
   "description": "",
   "main": "api/server.js",
   "scripts": {
-    "start": "node api/server.js",
-    "dev": "npx json-server db.json"
+    "start": "node api/server.js"
   },
   "author": "",
   "license": "ISC",
