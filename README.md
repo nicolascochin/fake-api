@@ -1,6 +1,6 @@
 # Fake API
 
-A brief description of what this project does and who it's for
+https://fake-api-codecloud.vercel.app/
 
 ## Run Locally
 
