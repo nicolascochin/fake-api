@@ -41,6 +41,7 @@ irb
 ```ruby
 require 'ffaker'
 require 'json'
-a = Array.new(30) {|i| {id: i + 1, heroImage: "https://fakeimg.pl/1020x510/#{FFaker::Color.hex_code}/", title: FFaker::Lorem.words((2..4).to_a.sample), description: FFaker::Lorem.words((7..10).to_a.sample), publicationDate: FFaker::Date.backward, content: FFaker::Lorem.paragraphs((5..10).to_a.sample)} }
+a = Array.new(30) {|i| {id: i + 1, heroImage: "https://fakeimg.pl/1020x510/#{FFaker::Color.hex_code}/", title: FFaker::Lorem.words((2..4).to_a.sample).join(' '), description: FFaker::Lorem.words((7..10).to_a.sample).join(' '), publicationDate:
+FFaker::Date.backward, content: FFaker::Lorem.paragraphs((5..10).to_a.sample).join("\n")} }
 File.open('db.json', 'w') { |file| file.write(JSON.dump(articles: a))}
 ```
