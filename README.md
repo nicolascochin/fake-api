@@ -1,6 +1,8 @@
 # Fake API
 
-https://fake-api-codecloud.vercel.app/
+URL: https://fake-api-codecloud.vercel.app
+
+API: https://fake-api-codecloud.vercel.app/articles
 
 ## Run Locally
 
